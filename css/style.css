@@ -1,0 +1,642 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+    color: white;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+/* ESTILO HEADER */
+.navbar {
+    background-color: #073B4C;
+}
+
+.logo {
+    height: 75px;
+    width: 250px;
+}
+
+
+/* ESTILO PORTADA(FUTURO CARROUSEL) */
+.portada {
+    background-image: url(../img/portada-shape-final.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 400px;
+
+    display: flex;
+    justify-self: center;
+    align-items: flex-end;
+
+
+}
+
+h2 {
+
+    font-size: 40px;
+    padding: 15px;
+    color: white;
+
+}
+
+
+
+.texto_portada {
+    padding: 20px;
+    color: white;
+
+
+}
+
+.borde__texto {
+
+    background-color: #118ab2b3;
+    padding: 5px;
+    background-size: cover;
+
+
+}
+
+/* IMPRESIONES 3D */
+
+.archivos-stl {
+    background-color: #073B4C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px;
+
+}
+
+.stl-contenedor {
+    background-color: #073B4C;
+    background-size: cover;
+    height: 40rem;
+    padding: 15px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.info_contender {
+    height: 500px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.imagen-tamano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.impresora {
+    height: 750px;
+
+}
+
+/* DALE IDENTIDAD A TU NEGOCIO */
+/* titulo */
+.negocio_title {
+    background-color: #118AB2;
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* Contenedor info */
+.contenedor_negocio {
+    background-color: #118AB2;
+    display: flex;
+    justify-content: center;
+    height: 23rem;
+
+
+}
+
+/* Div de info */
+.mockups_section {
+    background-color: #118AB2;
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+
+
+
+}
+
+/* Tamaño y propiedades img */
+.shape_taza {
+    height: 250px;
+    border: 2px solid #EF476F;
+    border-radius: 20px;
+}
+
+/* CAMISETAS DE FUTBOL */
+
+.camiseta_contenedor {
+    background-color: #073B4C;
+    background-size: cover;
+    height: 30rem;
+    padding: 15px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.futbol_title {
+    background-color: #073B4C;
+    padding: 20px;
+    text-align: center;
+
+
+
+
+}
+
+.mockups_futbol {
+    background-color: #118AB2;
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    border: 2px solid #EF476F;
+    border-radius: 20px;
+}
+
+
+.futbol_edit {
+    height: 500px;
+}
+
+
+
+
+/* Diseños Personalizados */
+h3 {
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+
+}
+
+.seccion_remeras {
+    background-color: #073B4C;
+    height: 15vh;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* TARJETAS */
+
+.section_vh {
+    height: 40rem;
+    background-color: #073B4C;
+}
+
+.tarjeta__title {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.tarjeta {
+    border: 2px solid #EF476F;
+    width: 250px;
+    background-color: #118AB2;
+    border-radius: 20px;
+    padding: 15px;
+
+
+
+}
+
+.remeras {
+    height: 350px;
+}
+
+.descripcion {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.slider {
+    background-color: #073B4C;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+    overflow: auto;
+}
+
+/* CONTACTO */
+
+.color_formulario {
+    color: white;
+    border-radius: 7px;
+    background-color: #118AB2;
+    margin: 7px;
+    border-style: solid;
+
+}
+
+
+.contactanos_title {
+    height: 50rem;
+    background-color: #118AB2;
+    padding: 10px;
+
+}
+
+
+.formulario_contenedor {
+
+    height: 35rem;
+    background-color: #118AB2;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.img_ubi {
+    height: 500px;
+    display: flex;
+    gap: 70px;
+    padding: 30px;
+
+}
+
+.tarjeta_contacto {
+    border: solid 2px #EF476F;
+    width: 250px;
+    background-color: #118AB2;
+    border-radius: 20px;
+    padding: 15px;
+    color: black;
+
+
+}
+
+
+.formulario_text {
+    height: 25rem;
+    gap: 15px;
+
+}
+
+.header_contacto {
+    background-color: #073B4C;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.logo__shape {
+    height: 100px;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 15px;
+}
+
+/* FOOTER */
+
+.footer_section {
+    background-color: #073B4C;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.color_font {
+    font-size: 20px;
+    display: flex;
+    gap: 100px;
+
+
+}
+
+.tittle {
+    font-size: 19px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    padding-top: 0px;
+}
+
+.logo_tamano {
+    height: 100px;
+}
+
+.redes {
+
+    margin: 10px;
+    gap: 10px;
+}
+
+.instagram {
+    height: 70px;
+    margin-top: 5px;
+}
+
+.lista_footer {
+
+    font-size: 15px;
+    margin: 7px;
+
+}
+
+@media (min-width:360px) {
+    .color_font {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+
+    }
+
+    .logo_tamano {
+        height: 75px;
+        width: 250px;
+    }
+
+    .redes {
+        height: 10px;
+        margin: none;
+        gap: none;
+
+
+    }
+}
+
+
+/* IMPRESIONES 3D HTML */
+
+.titulo_portada {
+    text-shadow: 5px 5px 30px black;
+}
+
+.portada_impresion {
+    background-image: url(../img/portada-impresion.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 400px;
+
+    display: flex;
+    justify-self: center;
+    align-items: flex-end;
+
+
+}
+
+
+
+.color__title {
+    text-align: center;
+    background-color: white;
+    color: #073B4C;
+    padding-top: 30px;
+
+}
+
+
+
+.tarjeta_impresiones {
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 15px 15px 30px;
+    color: rgb(185, 185, 185);
+
+
+
+
+}
+
+
+.impresiones {
+    height: 200px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+
+.section_3d {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 100px;
+
+}
+
+.color_text {
+    color: #073B4C;
+    text-align: center;
+
+}
+
+@media (min-width: 360px) {
+    .div_grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (min-width: 700px) {
+    .div_grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (min-width: 1150px) {
+    .div_grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .div_grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+}
+
+
+
+
+/* NOSOTROS HTML */
+
+
+.color_nosotros {
+    color: #073B4C;
+}
+
+.box_nosotros {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    padding: 75px;
+
+}
+
+
+.box_color {
+    color: #073B4C;
+}
+
+.como_trabajamos {
+    color: #118AB2;
+    padding: 50px;
+    text-align: center;
+}
+
+.titulo_color {
+    color: #EF476F;
+}
+
+.portada_nosotros {
+    background-image: url(../img/portada-nosotros.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 400px;
+
+    display: flex;
+    justify-self: center;
+    align-items: flex-end;
+
+
+}
+
+.icono {
+    height: 80px;
+    padding-top: 10px;
+
+}
+
+
+
+/* DISEÑO HTML */
+
+.portada_diseño {
+    background-image: url(../img/Boy\ T-shirt-Mockup.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+
+    display: flex;
+    justify-self: center;
+    align-items: flex-end;
+
+
+}
+
+.section_diseños {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_diseño {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 40px;
+}
+
+.tarjeta__diseño {
+    color: #073B4C;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+
+@media (min-width: 360px) {
+    .slider_diseño {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+
+
+    }
+
+    @media (min-width: 700px) {
+        .slider_diseño {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+    }
+
+    @media (min-width: 1150px) {
+        .slider_diseño {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+    }
+
+    @media (min-width: 1600px) {
+        .slider_diseño {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+    }
