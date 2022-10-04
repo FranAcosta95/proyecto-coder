@@ -569,7 +569,7 @@ h3 {
 /* DISEÑO HTML */
 
 .portada_diseño {
-    background-image: url(../img/Boy\ T-shirt-Mockup.jpg);
+    background-image: url(../img/boy-tshirt.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -615,28 +615,28 @@ h3 {
 
 
 
-    }
+}
 
-    @media (min-width: 700px) {
-        .slider_diseño {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 30px;
-        }
+@media (min-width: 700px) {
+    .slider_diseño {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
     }
+}
 
-    @media (min-width: 1150px) {
-        .slider_diseño {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-        }
+@media (min-width: 1150px) {
+    .slider_diseño {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
     }
+}
 
-    @media (min-width: 1600px) {
-        .slider_diseño {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 30px;
-        }
+@media (min-width: 1600px) {
+    .slider_diseño {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
     }
+}
