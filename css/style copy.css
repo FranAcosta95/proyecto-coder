@@ -1,4 +1,3 @@
-/*# sourceMappingURL=style.css.map */
 * {
     margin: 0;
     padding: 0;
@@ -113,21 +112,18 @@ h2 {
 @media (min-width: 360px) {
     .stl-contenedor {
         display: grid;
-
-
+        
+        
         height: 600px;
     }
-
-    .info_contender {
+    .info_contender{
         display: grid;
     }
-
-    .impresora {
+    .impresora{
         height: 450px;
         align-items: center;
     }
-
-    .parrafo {
+    .parrafo{
         text-align: center;
     }
 }
@@ -135,20 +131,17 @@ h2 {
 @media (min-width: 1150px) {
     .stl-contenedor {
         display: flex;
-
+        
         height: 600px;
     }
-
-    .info_contender {
+    .info_contender{
         display: grid;
     }
-
-    .impresora {
+    .impresora{
         height: 500px;
         align-items: center;
     }
-
-    .parrafo {
+    .parrafo{
         text-align: center;
     }
 }
@@ -381,15 +374,13 @@ h3 {
 }
 
 @media (min-width:360px) {
-    .formulario_contenedor {
+    .formulario_contenedor{
         height: 900px;
     }
-
-    .img_ubi {
+    .img_ubi{
         display: grid;
     }
-
-    .img_none {
+    .img_none{
         height: 200px;
     }
 }
@@ -623,8 +614,8 @@ h3 {
 
 }
 
-@media (min-width:360px) {
-    .box_nosotros {
+@media (min-width:360px){
+    .box_nosotros{
         gap: 40px;
         height: 1000px;
         display: grid;
